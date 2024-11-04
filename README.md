@@ -1,5 +1,7 @@
 # m5wificom-source
-compile code with Arduino IDE
+compile code with Arduino IDE <br>
+Or use the ready-to-flash and configuration at<br>
+https://m5wificom.n3gp.com/
 <h4>Library requirements</h4>
 AsyncTCP @ 1.1.4 <br>
 ESPAsyncWebServer @ 3.1.0 <br>
