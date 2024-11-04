@@ -68,6 +68,6 @@ Source (M5StickCPlus2.h)
     #endif
 <hr>
 *credit for*<br>
-base library form BrassBolt@wificom, BladeSabre@DMComm, Arduino<br>
-base drigirom form humulos, jyoshiikuta, Feanan<br>
-caft by naynan<br>
+base library form <a href="https://wificom.dev/">BrassBolt@wificom</a>, <a href="https://github.com/dmcomm">BladeSabre@DMComm</a>, Arduino<br>
+base drigirom form <a href="https://humulos.com/">humulos</a>, <a href="https://www.youtube.com/@joushiikuta/videos">jyoshiikuta</a>, Feanan<br>
+caft by <a href="mailto:naynan@n3gp.com">naynan</a><br>
