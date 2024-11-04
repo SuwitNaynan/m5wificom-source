@@ -933,28 +933,28 @@ void batt_show() {
     return;
   }
   int vol = map(StickCP2.Power.getBatteryVoltage(), 3100, 4000, 0, 100);
-  if (vol == 0) {
-    StickCP2.Display.drawBitmap(210, 2, image_battery_0_bits, 24, 16, 0xFFFF);
-  } else if (vol < 10) {
+  if (vol >= 1 && vol <= 10) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_10_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 10 && vol < 20) {
+  } else if (vol > 10 && vol <= 20) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_20_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 20 && vol < 30) {
+  } else if (vol > 20 && vol <= 30) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_30_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 30 && vol < 40) {
+  } else if (vol > 30 && vol <= 40) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_40_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 40 && vol < 50) {
+  } else if (vol > 40 && vol <= 50) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_50_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 50 && vol < 60) {
+  } else if (vol > 50 && vol <= 60) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_60_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 60 && vol < 70) {
+  } else if (vol > 60 && vol <= 70) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_70_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 70 && vol < 80) {
+  } else if (vol > 70 && vol <= 80) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_80_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 90 && vol < 100) {
+  } else if (vol > 80 && vol <= 90) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_100_bits, 24, 16, 0xFFFF);
-  } else if (vol >= 100) {
+  } else if (vol > 90 && vol <= 100) {
     StickCP2.Display.drawBitmap(210, 2, image_battery_100_bits, 24, 16, 0xFFFF);
+  } else {
+    StickCP2.Display.drawBitmap(210, 2, image_battery_0_bits, 24, 16, 0xFFFF);
   }
 }
 
