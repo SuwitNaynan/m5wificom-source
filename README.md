@@ -7,7 +7,6 @@ AsyncTCP @ 1.1.4 <br>
 ESPAsyncWebServer @ 3.1.0 <br>
 PubSubClient @ 2.8.0 <br>
 ArduinoJson @ 7.2.0 <br>
-StringStream @ arcao <br>
 ImprovWiFiLibrary @ 0.0.1 <br>
 M5GFX @ 0.1.17 <br>
 M5Unified @ 0.1.17 <br>
@@ -68,6 +67,6 @@ Source (M5StickCPlus2.h)
     #endif
 <hr>
 *credit for*<br>
-base library form <a href="https://wificom.dev/">BrassBolt@wificom</a>, <a href="https://github.com/dmcomm">BladeSabre@DMComm</a>, Arduino<br>
+base library form <a href="https://wificom.dev/">BrassBolt@wificom</a>, <a href="https://github.com/dmcomm">BladeSabre@DMComm</a>,  <a href="https://gist.github.com/arcao">Martin Sloup@StringStream</a>, Arduino<br>
 base drigirom form <a href="https://humulos.com/">humulos</a>, <a href="https://www.youtube.com/@joushiikuta/videos">jyoshiikuta</a>, Feanan<br>
 caft by <a href="mailto:naynan@n3gp.com">naynan</a><br>
