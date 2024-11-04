@@ -250,12 +250,6 @@ void loop() {
         timer = millis();
         if (buffer_digirom != nullptr) {
           active_screen();
-          //StickCP2.Display.setTextSize(2);
-          //StickCP2.Display.setCursor(0, 115);
-          //StickCP2.Display.setTextColor(RED, BLUE);
-          //StickCP2.Display.println("   Execute Command  ");
-          //StickCP2.Display.setTextColor(WHITE, BLACK);
-          //StickCP2.Display.setTextSize(1);
           StickCP2.Display.setTextColor(0xA800);
           StickCP2.Display.fillRect(0, 112, 240, 23, 0x15);
           StickCP2.Display.drawString("Execute Command", 51, 116);
@@ -1199,7 +1193,6 @@ void mqttcallback(char* topic, byte* payload, unsigned int length) {
   StickCP2.Display.setCursor(0, 115);
   StickCP2.Display.setTextColor(RED, GREEN);
   if (mqtt_digirom == "p" || mqtt_digirom == "P") {
-    //StickCP2.Display.println("       PAUSE        ");
     StickCP2.Display.setTextColor(0x57EA);
     StickCP2.Display.fillRect(0, 112, 240, 23, 0xA800);
     StickCP2.Display.drawString("PAUSE", 96, 116);
