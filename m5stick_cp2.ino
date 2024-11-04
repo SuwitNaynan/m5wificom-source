@@ -42,7 +42,6 @@ ClassicCommunicator classic_comm = ClassicCommunicator(output, input);
 ColorCommunicator color_comm = ColorCommunicator(output, input);
 Controller controller = Controller();
 
-String index_html = "";
 String secrets_mqtt_username = "";
 String secrets_mqtt_password = "";
 String secrets_user_uuid = "";
