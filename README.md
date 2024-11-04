@@ -15,13 +15,14 @@ M5StickCPlus2 @ 1.0.1 <br>
 DMComm @ 0.4.2 <br>
 <h4>Board requirements</h4>
 M5Stack @ 2.1.2<br><hr>
-<h4>how to change pin interface</h4>
-change PIN in line 32 and 33<br>
+<h4>How to change pin interface</h4>
+change PIN at line 32 and 33<br>
 Source (m5stick_cp2.ino)
 
     int INPUT_PIN = 36;
     int OUTPUT_PIN = 26;
 
+<h4>Enable BtnPWR to M5StickCPlus2</h4>
 add Button_Class &BtnPWR   = M5.BtnPWR; to class M5StickCPlus2 in file M5StickCPlus2.h <br>
 \Arduino\libraries\M5StickCPlus2\src\M5StickCPlus2.h <br>
 Source (M5StickCPlus2.h)
