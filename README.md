@@ -14,6 +14,11 @@ M5StickCPlus2 @ 1.0.1 <br>
 DMComm @ 0.4.2 <br>
 <h4>Board requirements</h4>
 M5Stack @ 2.1.2<br><hr>
+<h4>How to Configuration wifi & wificom parameter</h4>
+This project uses ImprovWiFiLibrary via Serial to configure. Can use any button form any website use ImprovWiFiLibrary, such as:
+<br>Improv Wi-Fi website https://www.improv-wifi.com/
+<br>ESP Web Tools website https://esphome.github.io/esp-web-tools/
+
 <h4>How to change pin interface</h4>
 change PIN at line 32 and 33<br>
 Source (m5stick_cp2.ino)
