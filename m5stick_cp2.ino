@@ -24,7 +24,7 @@ using namespace DMComm;
 #define mqtt_port 1883
 
 String boardname = "M5StickCPlus2";
-String version = "beta-2024-11-1";
+String version = "beta-2024-11-11";
 
 int BrightnessMAX = 70;
 int BrightnessMIN = 1;
@@ -597,7 +597,7 @@ void displaySubMenu() {
     temp_array = pen20_n;
     temp_code_array = pen20_c;
   } else if (punch_index == 8) {
-    size_index = 37;
+    size_index = 35;
     temp_array = penc_n;
     temp_code_array = penc_c;
   } else if (punch_index == 9) {
