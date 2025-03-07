@@ -269,8 +269,6 @@ void loop() {
             StickCP2.Display.fillRect(0, 112, 240, 19, 0x15);
             StickCP2.Display.drawString("Summon Successfully", 51, 116);
             StickCP2.Display.setTextColor(0xFFFF);
-
-            controller.execute(*buffer_digirom, 3000);
             StickCP2.Speaker.tone(8000, 20);
             delay(10);
             StickCP2.Speaker.tone(8000, 20);
